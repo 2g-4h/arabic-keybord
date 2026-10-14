@@ -1,0 +1,10 @@
+{
+  "name": "Arabic Keyboard",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": ["fwcd.kotlin", "vscjava.vscode-gradle"]
+    }
+  }
+}
